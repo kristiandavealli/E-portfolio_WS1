@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, blue, darkblue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+h3 {
+    color: navy;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+#skills ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+#contact p {
+    margin: 8px 0;
+}
+
+footer {
+    background: linear-gradient(90deg, skyblue, darkblue);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
